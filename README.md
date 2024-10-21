@@ -1,5 +1,13 @@
 # AquaData 🌊
+La información sobre calidad hídrica está dispersa en múltiples fuentes y formatos.
 
+Las bases de datos existentes son complejas, difíciles de consultar y presentan inconsistencias en su estructura y contenido. Esto afecta la gobernanza, el monitoreo ambiental y las cadenas de valor relacionadas con los recursos hídricos.
+
+AQUADATA una base de datos centralizada sobre la calidad del agua en los principales cuerpos superficiales de México. Esta base servirá para calibrar imágenes satelitales, mejorando estimaciones de parámetros hídricos a gran escala. Además de haber generado esta base de datos (cleansing, normalización,PCA) creamoos un RAG AI que interactúa con esta base de conocimieto através de un chat que aprovecha las capacidades del modelo Llama 3.2 90B y 11B.
+
+Áreas de impacto: seguridad hídrica, eficiencia industrial, y cadenas de valor, promoviendo transparencia y acceso a la información. Beneficiará a sectores públicos y privados, apoyando el desarrollo de Sistemas de Monitoreo, Reporte y Verificación (MRV) para la gestión económica y ecológica de cuencas.
+
+-Config (English)
 AquaData is a Streamlit application that provides information about water quality in the main surface water bodies of Mexico. It includes a chatbot powered by Groq AI to answer questions based on the aquatic data.
 
 ## Setup and Deployment
