@@ -57,7 +57,7 @@ def main():
     # Add dropdown to filter by ESTADO
     st.header("Filtra por estado")
     estados = ['All'] + sorted(data['ESTADO'].unique().tolist())
-    selected_estado = st.selectbox("Select a state:", estados)
+    selected_estado = st.selectbox("Selecciona estado:", estados)
 
     # Filter and display data based on selection
     if selected_estado != 'All':
@@ -75,10 +75,10 @@ def main():
         return context[:max_chars]
 
     # Chatbot interface
-    st.header("AquaData Chatbot")
+    st.header("Haz preguntas sobre la calidad del agua en Mexico a AquaData")
     with st.container():
-        user_input = st.text_area("Ask a question about the AquaData:", height=100)
-        if st.button("Send"):
+        user_input = st.text_area("Preguntar:", height=100)
+        if st.button("Enviar"):
             if user_input:
                 # Convert filtered data to string and truncate to approx. 3000 tokens
                 full_context = filtered_data.to_string()
