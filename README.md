@@ -53,8 +53,7 @@ AquaData is a Streamlit application that provides information about water qualit
 
 ## Data Source
 
-The application uses the `AquaData.csv` file as its data source. Ensure this file is present in the root directory of the project.
-
+The application uses the data from the main institutions of water monitoring in Mexico CONAGUA, SEMARNAT, RENAMECA.
 ## Credits
 
 - Idea and RAG implementation: Gibrann Morgado
